@@ -1,32 +1,18 @@
 <template>
-  <div class="hello">
+  <div class="main">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+    <h2> Serving the Mechanicsburg Area</h2>
+    <p>Central PA #1 Airport Shuttle Service </p> 
+    <h3>Airports Served: </h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li>HIA</li>
+      <li>Reagan National</li>
+      <li>Dulles</li>
+      <li>BWI</li>
+      <li>JFK</li>
+      <li>EWR</li>
     </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <a class="themebutton" href="https://relaxandridecarlisle.com/book-now/">Book Today</a>
   </div>
 </template>
 
@@ -53,6 +39,81 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: blue;
 }
+a.themebutton {
+font-size: 13px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: .5px;
+background-color: #338ea6;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+-ms-border-radius: 25px;
+-o-border-radius: 25px;
+border-radius: 25px;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+.action-link a {
+display: inline-block;
+font-weight: 600;
+padding: 10px 20px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+}
+a.themebutton {
+color: #FFF;
+font-weight: 400;
+text-transform: uppercase;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+}
+a, a:visited {
+text-decoration: none;
+}
+.themebutton, button, html input[type="button"], input[type="reset"], input[type="submit"] {
+color: #FFF;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+background: #13aff0;
+border: none;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+-webkit-transition: -webkit-box-shadow 0s;
+-moz-transition: -moz-box-shadow 0s;
+-ms-transition: -ms-box-shadow 0s;
+-o-transition: -o-box-shadow 0s;
+transition: box-shadow 0s;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+}
+a {
+color: #13aff0;
+cursor: pointer;
+text-decoration: none;
+outline: 0 none;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
 </style>

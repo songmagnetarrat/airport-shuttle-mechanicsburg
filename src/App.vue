@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class = "header_img" alt="Airport Backdrop" src="./assets/cropped-airport-67-1.jpg">
+    <HelloWorld msg="Mechanicsburg Airport Shuttle Service"/>
   </div>
 </template>
 
@@ -18,11 +18,14 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: -5px;
+}
+.header_img {
+  object-fit: cover;
+  width: 100vw;  
 }
 </style>
