@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <h1>{{ msg }}</h1>
-    <h2> Serving the Mechanicsburg Area</h2>
+    <h2> Service Area <br/> Mechanicsburg, PA </h2>
     <p>Central PA #1 Airport Shuttle Service </p> 
     <h3>Airports Served: </h3>
     <ul>

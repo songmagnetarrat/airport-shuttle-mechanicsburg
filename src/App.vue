@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img class = "header_img" alt="Airport Backdrop" src="./assets/cropped-airport-67-1.jpg">
-    <HelloWorld msg="Mechanicsburg Airport Shuttle Service"/>
+    <HelloWorld msg="Airport Shuttle Service Mechanicsburg"/>
   </div>
 </template>
 
@@ -17,6 +17,9 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 #app {
   font-family: Montserrat, Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
